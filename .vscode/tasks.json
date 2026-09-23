@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"МОСТ: запустить демо","type":"shell","command":"npm run demo","problemMatcher":[],"isBackground":true},{"label":"МОСТ: проверить","type":"shell","command":"npm run build && npm test","problemMatcher":[]}]}
