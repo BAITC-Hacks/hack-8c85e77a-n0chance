@@ -6,6 +6,8 @@
 
 `python -m unittest discover -s tests -v`: **14 / 14 проходят**.
 
+GitHub Actions настроен, но [облачный запуск](https://github.com/BAITC-Hacks/hack-8c85e77a-n0chance/actions/runs/35850421640) не начался: GitHub сообщает `The job was not started because your account is locked due to a billing issue.` Это внешняя блокировка аккаунта; облачные тесты не заявляются пройденными. Локальные проверки выполнены успешно.
+
 Проверены утечки будущих измерений и погоды, отрицательные сценарии CSV, различение реального/синтетического источника, кэш/обновление, резервный запуск GFS, нормированные границы и календарь февраля.
 
 ## Демонстрационный rolling backtest
